@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: app.jar app-client.jar bouncy-castle.jar external-system-rt.
+ jar externalProcess-rt.jar forms_rt.jar groovy.jar grpc.jar idea_rt.jar
+  intellij-coverage-agent-1.0.744.jar intellij-test-discovery.jar jps-mo
+ del.jar jsch-agent.jar junit4.jar lib.jar lib-client.jar modules.jar op
+ entelemetry.jar platform-loader.jar product.jar protobuf.jar rd.jar sta
+ ts.jar testFramework.jar trove.jar util.jar util-8.jar util_rt.jar anno
+ tations-24.0.1.jar
+

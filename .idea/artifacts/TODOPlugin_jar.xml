@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="TODOPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TODOPlugin_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TODOPlugin.jar">
+        <element id="module-output" name="TODOPlugin.main" />
+      </element>
+      <element id="library" level="module" name="Gradle: com.jetbrains:ideaIC:2024.1.7" module-name="TODOPlugin.test" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:24.0.1" />
+    </root>
+  </artifact>
+</component>
