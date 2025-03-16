@@ -29,3 +29,6 @@ Click the checkbox to mark tasks as complete.
 Use the ⬆ and ⬇ buttons to reorder tasks.
 
 Click the 🗑️ button to remove a task.
+
+## License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.

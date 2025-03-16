@@ -6,16 +6,27 @@
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
     <name>TODOPlugin</name>
+    <version>1.0.0</version>
+
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="muskansanghai@gmail.com" url="https://www.linkedin.com/in/muskan-sanghai/">YourCompany</vendor>
+    <vendor email="muskansanghai@gmail.com" url="https://www.linkedin.com/in/muskan-sanghai/">Muskan</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
- hey there whats'up lets do this todo task all done with this plugin
-  ]]></description>
+    <strong>TODO Plugin</strong> is a lightweight and efficient task management tool designed for developers.
+    Keep track of your pending tasks, organize your workflow, and never miss an important to-do again! ✅<br><br>
+
+    🌟 **Key Features:**
+    - 📌 Easily create, edit, and manage to-do tasks within your IDE
+    - 🚀 Intuitive tool window for quick access to your task list
+    - 🎯 Stay focused and boost productivity with a structured task management system
+    - 🔌 Seamless integration with IntelliJ-based IDEs
+
+    Say goodbye to forgotten tasks and stay on top of your development workflow! 🚀
+    ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
