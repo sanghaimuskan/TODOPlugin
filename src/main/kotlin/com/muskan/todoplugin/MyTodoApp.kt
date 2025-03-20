@@ -16,8 +16,6 @@ import javax.swing.*
 class MyTodoApp : ToolWindowFactory {
 
     private val taskListPanel = JPanel().apply {
-//        layout = BoxLayout(this, BoxLayout.Y_AXIS) // Stack tasks vertically
-
         layout = WrapLayout(FlowLayout.LEFT, 10, 12) // Use WrapLayout for wrapping
         background = JBColor.WHITE
     }
@@ -30,7 +28,7 @@ class MyTodoApp : ToolWindowFactory {
             override fun focusGained(e: FocusEvent?) {
                 super.focusGained(e)
                 if (text == "Write your tasks here...") {
-                    text = ""  // Clear placeholder when user starts typing
+                    text = ""
                 }
             }
         })
@@ -58,7 +56,7 @@ class MyTodoApp : ToolWindowFactory {
         if (taskText.isEmpty()) return
 
         val taskPanel = JPanel().apply {
-            layout = FlowLayout(FlowLayout.LEFT, 5, 5)
+            layout = FlowLayout(FlowLayout.LEFT, 1, 5)
             maximumSize = Dimension(40, 50) // Set maximum width for task panel
         }
 
