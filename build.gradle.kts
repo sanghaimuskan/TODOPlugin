@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.muskan"
-version = "1.0-SNAPSHOT"
+version = "1.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -32,7 +32,6 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("3000.*")
     }
 
     signPlugin {
